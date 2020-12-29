@@ -81,7 +81,7 @@ angular.module('ideShortcuts', ['ngSanitize','ngStorage'])
             }
         };
 
-        const shortcutsFile = '../docs/data/shortcuts.json';
+        const shortcutsFile = '/docs/data/shortcuts.json';
 
         // only for testing
         $scope.reset = function() {
